@@ -11,14 +11,14 @@
     /* FONTS */
     --Kadwa: "Kadwa", serif;
     --JakartaSans: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1{
-    color: var(--orange);
-    font-family: var(--Kadwa);
-}
-
-h2{
-    color: var(--orange);
-    font-family: var(--JakartaSans);
+.container {
+    min-height: 18735px;
+    min-width: 1920px;
+    background-image: url(assets/bg-main.svg);
+    background-size: contain;
 }
