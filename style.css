@@ -19,6 +19,7 @@
 
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -35,11 +36,11 @@ body {
 
 /* Responsive */
 @media screen and (max-width: 1280px) {
-    .container {
-      min-width: 100%;
-      background-size: contain;
-    }
+  .container {
+    min-width: 100%;
+    background-size: contain;
   }
+}
 
 #background_MAX {
   position: absolute;
@@ -123,8 +124,8 @@ body {
   margin-bottom: 150px;
 }
 
-.multimedian-websites p{
-    color: var(--black);
+.multimedian-websites p {
+  color: var(--black);
 }
 
 .label.big {
@@ -323,80 +324,72 @@ body {
 
 /* SECTION 5 STAGES OF GRIEVE END */
 
-
 /* MEDPART & SPONSOR START */
 .sponsor-scroll {
-    background: var(--white_bg);
-    display: flex;
-    gap: 6rem;
-    width: 100% ;
-    user-select: none;
-    margin-bottom: 3rem;
+  background: var(--white_bg);
+  display: flex;
+  gap: 6rem;
+  width: 100%;
+  user-select: none;
+  margin-bottom: 3rem;
 }
 
 .sponsor-scroll img {
-    width: 80px;
+  width: 80px;
 }
 
 .sponsor-scroll ul {
-    display: flex;
-    flex-shrink: 0;
-    min-width: 100%;
-    gap: 2rem;
-    align-items: center;
-    justify-content: space-between;
-    animation: scrollX 5s linear infinite;
+  display: flex;
+  flex-shrink: 0;
+  min-width: 100%;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  animation: scrollX 5s linear infinite;
 }
 
-
 .sponsor {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .bg-sponsor {
-    background-color: var(--white_bg);
-    padding: 1rem;
-    border-radius: 20px;
-    display: flex;
-    width: 60%;
-    justify-content: space-around;
-    align-items: center;
-    height: 18rem;
-    flex-wrap: wrap;
+  background-color: var(--white_bg);
+  padding: 1rem;
+  border-radius: 20px;
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  align-items: center;
+  height: 18rem;
+  flex-wrap: wrap;
 }
 
 .sponsored {
-    display: flex;
-    flex-direction: column;
-    width: 220px;
-    font-size: 1.6rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    align-items: center;
-    margin: 0 auto;
-    border-radius: 20px;
-    margin-top: -1rem;
-    margin-bottom: 2.5rem;
-    justify-content: center;
-    text-align: center;
-    background-color: var(--white_bg);
-    padding: 0.5rem 1rem;
-    
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: -1rem;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--white_bg);
+  padding: 0.5rem 1rem;
 }
 
 .bg-sponsor img {
-    width: 100px;
-    height: 80px;
+  width: 100px;
+  height: 80px;
 }
 
-
-
-
 /* MEDPART & SPONSOR END */
-
-
 
 /* Animation */
 @keyframes scroll {
@@ -411,884 +404,913 @@ body {
   }
 }
 
-
-
 /* KILAS BALIK MAX */
 
-.section-kilas{
-    display: flex;
-    gap: 2rem;
-    margin-top: 150px;
-    margin-bottom: 100px;
+.section-kilas {
+  display: flex;
+  gap: 2rem;
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
-.maskot-text p{
-    font-weight: bolder;
-    font-size: 200px;
-    font-family: var(--JakartaSans);
-    margin-top: 8rem;
+.maskot-text p {
+  font-weight: bolder;
+  font-size: 200px;
+  font-family: var(--JakartaSans);
+  margin-top: 8rem;
 }
 
-.maskot-text h1{
-    font-weight: bolder;
-    font-size: 40px;
-    font-family: var(--JakartaSans);
-    margin-top: -3rem;
+.maskot-text h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: var(--JakartaSans);
+  margin-top: -3rem;
 }
 
-.maskot-left img{
-    width: 400px;
+.maskot-left img {
+  width: 400px;
 }
 
-.maskot-right img{
-    width: 400px;
-    /* margin-top: 150px; */
+.maskot-right img {
+  width: 400px;
+  /* margin-top: 150px; */
 }
 
-.after-movie-max p{
-    width: 100%;
+.after-movie-max p {
+  width: 100%;
 }
 
-.kilas-balik{
-    display: flex;
-    width: 100%;
-    height: auto;
+.kilas-balik {
+  display: flex;
+  width: 100%;
+  height: auto;
 }
 
-.kilas-balik-sticky{
-    /* overflow: visible; */
-    width: 30%;
-    position: sticky;
-    top: 0;
-    height: 100vh; 
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-size: 55px;
+.kilas-balik-sticky {
+  /* overflow: visible; */
+  width: 30%;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 55px;
 }
 
-.kilas-balik-content{
-    width: 70%;
-    height: 175vh;
-    position: relative;
-    z-index: 2;
+.kilas-balik-content {
+  width: 70%;
+  height: 175vh;
+  position: relative;
+  z-index: 2;
 }
 
 .kilas-balik-image {
-    position: absolute;
-    transition: transform 0.3s;
+  position: absolute;
+  transition: transform 0.3s;
 }
 
 .kilas-balik-image:hover {
-    transform: scale(1.1);
-    z-index: 3;
+  transform: scale(1.1);
+  z-index: 3;
 }
 
-.max-8{
-    .kilas-balik-image:nth-child(1) {
-        width: 280px;
-        height: 200px;
-        top: 5%;
-        left: 7%;
-        background-image: url('assets/rec-example.png');
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(2) {
-        width: 220px;
-        height: 235px;
-        top: 15%;
-        left: 25%;
-        background-image: url('assets/rec-example.png');
-        /* background-image: url(IMG_7490.JPG); */
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(3) {
-        width: 200px;
-        height: 200px;
-        top: 10%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(4) {
-        width: 280px;
-        height: 200px;
-        top: 2%;
-        left: 63%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(5) {
-        width: 280px;
-        height: 200px;
-        top: 30%;
-        left: 5%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(6) {
-        width: 200px;
-        height: 200px;
-        top: 45%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(7) {
-        width: 280px;
-        height: 200px;
-        top: 40%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(8) {
-        width: 280px;
-        height: 280px;
-        top: 25%;
-        left: 65%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(9) {
-        width: 280px;
-        height: 280px;
-        top: 55%;
-        left: 2%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(10) {
-        width: 300px;
-        height: 200px;
-        top: 65%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(11) {
-        width: 300px;
-        height: 400px;
-        top: 75%;
-        left: 20%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(12) {
-        width: 300px;
-        height: 300px;
-        top: 70%;
-        left: 60%;
-        background-image: url('assets/rec-example.png');
-    }
+.max-8 {
+  .kilas-balik-image:nth-child(1) {
+    width: 280px;
+    height: 200px;
+    top: 5%;
+    left: 7%;
+    background-image: url("assets/rec-example.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(2) {
+    width: 220px;
+    height: 235px;
+    top: 15%;
+    left: 25%;
+    background-image: url("assets/rec-example.png");
+    /* background-image: url(IMG_7490.JPG); */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(4) {
+    width: 280px;
+    height: 200px;
+    top: 2%;
+    left: 63%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(5) {
+    width: 280px;
+    height: 200px;
+    top: 30%;
+    left: 5%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(6) {
+    width: 200px;
+    height: 200px;
+    top: 45%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(7) {
+    width: 280px;
+    height: 200px;
+    top: 40%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(8) {
+    width: 280px;
+    height: 280px;
+    top: 25%;
+    left: 65%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(9) {
+    width: 280px;
+    height: 280px;
+    top: 55%;
+    left: 2%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(10) {
+    width: 300px;
+    height: 200px;
+    top: 65%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(11) {
+    width: 300px;
+    height: 400px;
+    top: 75%;
+    left: 20%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(12) {
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 60%;
+    background-image: url("assets/rec-example.png");
+  }
 }
 
-.max-7{
-    .kilas-balik-image:nth-child(1) {
-        width: 280px;
-        height: 200px;
-        top: 5%;
-        left: 7%;
-        background-image: url('assets/rec-example.png');
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(2) {
-        width: 220px;
-        height: 235px;
-        top: 15%;
-        left: 25%;
-        background-image: url('assets/rec-example.png');
-        /* background-image: url(IMG_7490.JPG); */
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(3) {
-        width: 200px;
-        height: 200px;
-        top: 10%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(4) {
-        width: 280px;
-        height: 200px;
-        top: 2%;
-        left: 63%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(5) {
-        width: 280px;
-        height: 200px;
-        top: 30%;
-        left: 5%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(6) {
-        width: 200px;
-        height: 200px;
-        top: 45%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(7) {
-        width: 280px;
-        height: 200px;
-        top: 40%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(8) {
-        width: 280px;
-        height: 280px;
-        top: 25%;
-        left: 65%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(9) {
-        width: 280px;
-        height: 280px;
-        top: 55%;
-        left: 2%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(10) {
-        width: 300px;
-        height: 200px;
-        top: 65%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(11) {
-        width: 300px;
-        height: 400px;
-        top: 75%;
-        left: 20%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(12) {
-        width: 300px;
-        height: 300px;
-        top: 70%;
-        left: 60%;
-        background-image: url('assets/rec-example.png');
-    }
+.max-7 {
+  .kilas-balik-image:nth-child(1) {
+    width: 280px;
+    height: 200px;
+    top: 5%;
+    left: 7%;
+    background-image: url("assets/rec-example.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(2) {
+    width: 220px;
+    height: 235px;
+    top: 15%;
+    left: 25%;
+    background-image: url("assets/rec-example.png");
+    /* background-image: url(IMG_7490.JPG); */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(4) {
+    width: 280px;
+    height: 200px;
+    top: 2%;
+    left: 63%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(5) {
+    width: 280px;
+    height: 200px;
+    top: 30%;
+    left: 5%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(6) {
+    width: 200px;
+    height: 200px;
+    top: 45%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(7) {
+    width: 280px;
+    height: 200px;
+    top: 40%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(8) {
+    width: 280px;
+    height: 280px;
+    top: 25%;
+    left: 65%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(9) {
+    width: 280px;
+    height: 280px;
+    top: 55%;
+    left: 2%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(10) {
+    width: 300px;
+    height: 200px;
+    top: 65%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(11) {
+    width: 300px;
+    height: 400px;
+    top: 75%;
+    left: 20%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(12) {
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 60%;
+    background-image: url("assets/rec-example.png");
+  }
 }
 
-.max-6{
-    .kilas-balik-image:nth-child(1) {
-        width: 280px;
-        height: 200px;
-        top: 5%;
-        left: 7%;
-        background-image: url('assets/rec-example.png');
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(2) {
-        width: 220px;
-        height: 235px;
-        top: 15%;
-        left: 25%;
-        background-image: url('assets/rec-example.png');
-        /* background-image: url(IMG_7490.JPG); */
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(3) {
-        width: 200px;
-        height: 200px;
-        top: 10%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(4) {
-        width: 280px;
-        height: 200px;
-        top: 2%;
-        left: 63%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(5) {
-        width: 280px;
-        height: 200px;
-        top: 30%;
-        left: 5%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(6) {
-        width: 200px;
-        height: 200px;
-        top: 45%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(7) {
-        width: 280px;
-        height: 200px;
-        top: 40%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(8) {
-        width: 280px;
-        height: 280px;
-        top: 25%;
-        left: 65%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(9) {
-        width: 280px;
-        height: 280px;
-        top: 55%;
-        left: 2%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(10) {
-        width: 300px;
-        height: 200px;
-        top: 65%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(11) {
-        width: 300px;
-        height: 400px;
-        top: 75%;
-        left: 20%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(12) {
-        width: 300px;
-        height: 300px;
-        top: 70%;
-        left: 60%;
-        background-image: url('assets/rec-example.png');
-    }
+.max-6 {
+  .kilas-balik-image:nth-child(1) {
+    width: 280px;
+    height: 200px;
+    top: 5%;
+    left: 7%;
+    background-image: url("assets/rec-example.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(2) {
+    width: 220px;
+    height: 235px;
+    top: 15%;
+    left: 25%;
+    background-image: url("assets/rec-example.png");
+    /* background-image: url(IMG_7490.JPG); */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(4) {
+    width: 280px;
+    height: 200px;
+    top: 2%;
+    left: 63%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(5) {
+    width: 280px;
+    height: 200px;
+    top: 30%;
+    left: 5%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(6) {
+    width: 200px;
+    height: 200px;
+    top: 45%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(7) {
+    width: 280px;
+    height: 200px;
+    top: 40%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(8) {
+    width: 280px;
+    height: 280px;
+    top: 25%;
+    left: 65%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(9) {
+    width: 280px;
+    height: 280px;
+    top: 55%;
+    left: 2%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(10) {
+    width: 300px;
+    height: 200px;
+    top: 65%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(11) {
+    width: 300px;
+    height: 400px;
+    top: 75%;
+    left: 20%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(12) {
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 60%;
+    background-image: url("assets/rec-example.png");
+  }
 }
 
-.max-5{
-    .kilas-balik-image:nth-child(1) {
-        width: 280px;
-        height: 200px;
-        top: 5%;
-        left: 7%;
-        background-image: url('assets/rec-example.png');
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(2) {
-        width: 220px;
-        height: 235px;
-        top: 15%;
-        left: 25%;
-        background-image: url('assets/rec-example.png');
-        /* background-image: url(IMG_7490.JPG); */
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(3) {
-        width: 200px;
-        height: 200px;
-        top: 10%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(4) {
-        width: 280px;
-        height: 200px;
-        top: 2%;
-        left: 63%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(5) {
-        width: 280px;
-        height: 200px;
-        top: 30%;
-        left: 5%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(6) {
-        width: 200px;
-        height: 200px;
-        top: 45%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(7) {
-        width: 280px;
-        height: 200px;
-        top: 40%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(8) {
-        width: 280px;
-        height: 280px;
-        top: 25%;
-        left: 65%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(9) {
-        width: 280px;
-        height: 280px;
-        top: 55%;
-        left: 2%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(10) {
-        width: 300px;
-        height: 200px;
-        top: 65%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(11) {
-        width: 300px;
-        height: 400px;
-        top: 75%;
-        left: 20%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(12) {
-        width: 300px;
-        height: 300px;
-        top: 70%;
-        left: 60%;
-        background-image: url('assets/rec-example.png');
-    }
+.max-5 {
+  .kilas-balik-image:nth-child(1) {
+    width: 280px;
+    height: 200px;
+    top: 5%;
+    left: 7%;
+    background-image: url("assets/rec-example.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(2) {
+    width: 220px;
+    height: 235px;
+    top: 15%;
+    left: 25%;
+    background-image: url("assets/rec-example.png");
+    /* background-image: url(IMG_7490.JPG); */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(4) {
+    width: 280px;
+    height: 200px;
+    top: 2%;
+    left: 63%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(5) {
+    width: 280px;
+    height: 200px;
+    top: 30%;
+    left: 5%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(6) {
+    width: 200px;
+    height: 200px;
+    top: 45%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(7) {
+    width: 280px;
+    height: 200px;
+    top: 40%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(8) {
+    width: 280px;
+    height: 280px;
+    top: 25%;
+    left: 65%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(9) {
+    width: 280px;
+    height: 280px;
+    top: 55%;
+    left: 2%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(10) {
+    width: 300px;
+    height: 200px;
+    top: 65%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(11) {
+    width: 300px;
+    height: 400px;
+    top: 75%;
+    left: 20%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(12) {
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 60%;
+    background-image: url("assets/rec-example.png");
+  }
 }
 
-.max-4{
-    .kilas-balik-image:nth-child(1) {
-        width: 280px;
-        height: 200px;
-        top: 5%;
-        left: 7%;
-        background-image: url('assets/rec-example.png');
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(2) {
-        width: 220px;
-        height: 235px;
-        top: 15%;
-        left: 25%;
-        background-image: url('assets/rec-example.png');
-        /* background-image: url(IMG_7490.JPG); */
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(3) {
-        width: 200px;
-        height: 200px;
-        top: 10%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(4) {
-        width: 280px;
-        height: 200px;
-        top: 2%;
-        left: 63%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(5) {
-        width: 280px;
-        height: 200px;
-        top: 30%;
-        left: 5%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(6) {
-        width: 200px;
-        height: 200px;
-        top: 45%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(7) {
-        width: 280px;
-        height: 200px;
-        top: 40%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(8) {
-        width: 280px;
-        height: 280px;
-        top: 25%;
-        left: 65%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(9) {
-        width: 280px;
-        height: 280px;
-        top: 55%;
-        left: 2%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(10) {
-        width: 300px;
-        height: 200px;
-        top: 65%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(11) {
-        width: 300px;
-        height: 400px;
-        top: 75%;
-        left: 20%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(12) {
-        width: 300px;
-        height: 300px;
-        top: 70%;
-        left: 60%;
-        background-image: url('assets/rec-example.png');
-    }
+.max-4 {
+  .kilas-balik-image:nth-child(1) {
+    width: 280px;
+    height: 200px;
+    top: 5%;
+    left: 7%;
+    background-image: url("assets/rec-example.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(2) {
+    width: 220px;
+    height: 235px;
+    top: 15%;
+    left: 25%;
+    background-image: url("assets/rec-example.png");
+    /* background-image: url(IMG_7490.JPG); */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(4) {
+    width: 280px;
+    height: 200px;
+    top: 2%;
+    left: 63%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(5) {
+    width: 280px;
+    height: 200px;
+    top: 30%;
+    left: 5%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(6) {
+    width: 200px;
+    height: 200px;
+    top: 45%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(7) {
+    width: 280px;
+    height: 200px;
+    top: 40%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(8) {
+    width: 280px;
+    height: 280px;
+    top: 25%;
+    left: 65%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(9) {
+    width: 280px;
+    height: 280px;
+    top: 55%;
+    left: 2%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(10) {
+    width: 300px;
+    height: 200px;
+    top: 65%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(11) {
+    width: 300px;
+    height: 400px;
+    top: 75%;
+    left: 20%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(12) {
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 60%;
+    background-image: url("assets/rec-example.png");
+  }
 }
 
-.max-3{
-    .kilas-balik-image:nth-child(1) {
-        width: 280px;
-        height: 200px;
-        top: 5%;
-        left: 7%;
-        background-image: url('assets/rec-example.png');
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(2) {
-        width: 220px;
-        height: 235px;
-        top: 15%;
-        left: 25%;
-        background-image: url('assets/rec-example.png');
-        /* background-image: url(IMG_7490.JPG); */
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(3) {
-        width: 200px;
-        height: 200px;
-        top: 10%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(4) {
-        width: 280px;
-        height: 200px;
-        top: 2%;
-        left: 63%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(5) {
-        width: 280px;
-        height: 200px;
-        top: 30%;
-        left: 5%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(6) {
-        width: 200px;
-        height: 200px;
-        top: 45%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(7) {
-        width: 280px;
-        height: 200px;
-        top: 40%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(8) {
-        width: 280px;
-        height: 280px;
-        top: 25%;
-        left: 65%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(9) {
-        width: 280px;
-        height: 280px;
-        top: 55%;
-        left: 2%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(10) {
-        width: 300px;
-        height: 200px;
-        top: 65%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(11) {
-        width: 300px;
-        height: 400px;
-        top: 75%;
-        left: 20%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(12) {
-        width: 300px;
-        height: 300px;
-        top: 70%;
-        left: 60%;
-        background-image: url('assets/rec-example.png');
-    }
+.max-3 {
+  .kilas-balik-image:nth-child(1) {
+    width: 280px;
+    height: 200px;
+    top: 5%;
+    left: 7%;
+    background-image: url("assets/rec-example.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(2) {
+    width: 220px;
+    height: 235px;
+    top: 15%;
+    left: 25%;
+    background-image: url("assets/rec-example.png");
+    /* background-image: url(IMG_7490.JPG); */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(4) {
+    width: 280px;
+    height: 200px;
+    top: 2%;
+    left: 63%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(5) {
+    width: 280px;
+    height: 200px;
+    top: 30%;
+    left: 5%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(6) {
+    width: 200px;
+    height: 200px;
+    top: 45%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(7) {
+    width: 280px;
+    height: 200px;
+    top: 40%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(8) {
+    width: 280px;
+    height: 280px;
+    top: 25%;
+    left: 65%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(9) {
+    width: 280px;
+    height: 280px;
+    top: 55%;
+    left: 2%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(10) {
+    width: 300px;
+    height: 200px;
+    top: 65%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(11) {
+    width: 300px;
+    height: 400px;
+    top: 75%;
+    left: 20%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(12) {
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 60%;
+    background-image: url("assets/rec-example.png");
+  }
 }
 
-.max-2{
-    .kilas-balik-image:nth-child(1) {
-        width: 280px;
-        height: 200px;
-        top: 5%;
-        left: 7%;
-        background-image: url('assets/rec-example.png');
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(2) {
-        width: 220px;
-        height: 235px;
-        top: 15%;
-        left: 25%;
-        background-image: url('assets/rec-example.png');
-        /* background-image: url(IMG_7490.JPG); */
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(3) {
-        width: 200px;
-        height: 200px;
-        top: 10%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(4) {
-        width: 280px;
-        height: 200px;
-        top: 2%;
-        left: 63%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(5) {
-        width: 280px;
-        height: 200px;
-        top: 30%;
-        left: 5%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(6) {
-        width: 200px;
-        height: 200px;
-        top: 45%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(7) {
-        width: 280px;
-        height: 200px;
-        top: 40%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(8) {
-        width: 280px;
-        height: 280px;
-        top: 25%;
-        left: 65%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(9) {
-        width: 280px;
-        height: 280px;
-        top: 55%;
-        left: 2%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(10) {
-        width: 300px;
-        height: 200px;
-        top: 65%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(11) {
-        width: 300px;
-        height: 400px;
-        top: 75%;
-        left: 20%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(12) {
-        width: 300px;
-        height: 300px;
-        top: 70%;
-        left: 60%;
-        background-image: url('assets/rec-example.png');
-    }
+.max-2 {
+  .kilas-balik-image:nth-child(1) {
+    width: 280px;
+    height: 200px;
+    top: 5%;
+    left: 7%;
+    background-image: url("assets/rec-example.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(2) {
+    width: 220px;
+    height: 235px;
+    top: 15%;
+    left: 25%;
+    background-image: url("assets/rec-example.png");
+    /* background-image: url(IMG_7490.JPG); */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(4) {
+    width: 280px;
+    height: 200px;
+    top: 2%;
+    left: 63%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(5) {
+    width: 280px;
+    height: 200px;
+    top: 30%;
+    left: 5%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(6) {
+    width: 200px;
+    height: 200px;
+    top: 45%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(7) {
+    width: 280px;
+    height: 200px;
+    top: 40%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(8) {
+    width: 280px;
+    height: 280px;
+    top: 25%;
+    left: 65%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(9) {
+    width: 280px;
+    height: 280px;
+    top: 55%;
+    left: 2%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(10) {
+    width: 300px;
+    height: 200px;
+    top: 65%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(11) {
+    width: 300px;
+    height: 400px;
+    top: 75%;
+    left: 20%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(12) {
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 60%;
+    background-image: url("assets/rec-example.png");
+  }
 }
 
-.max-1{
-    .kilas-balik-image:nth-child(1) {
-        width: 280px;
-        height: 200px;
-        top: 5%;
-        left: 7%;
-        background-image: url('assets/rec-example.png');
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(2) {
-        width: 220px;
-        height: 235px;
-        top: 15%;
-        left: 25%;
-        background-image: url('assets/rec-example.png');
-        /* background-image: url(IMG_7490.JPG); */
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .kilas-balik-image:nth-child(3) {
-        width: 200px;
-        height: 200px;
-        top: 10%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(4) {
-        width: 280px;
-        height: 200px;
-        top: 2%;
-        left: 63%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(5) {
-        width: 280px;
-        height: 200px;
-        top: 30%;
-        left: 5%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(6) {
-        width: 200px;
-        height: 200px;
-        top: 45%;
-        left: 30%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(7) {
-        width: 280px;
-        height: 200px;
-        top: 40%;
-        left: 45%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(8) {
-        width: 280px;
-        height: 280px;
-        top: 25%;
-        left: 65%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(9) {
-        width: 280px;
-        height: 280px;
-        top: 50%;
-        left: 2%;
-        background-image: url('assets/rec-example.png');
-    }
-    
-    .kilas-balik-image:nth-child(10) {
-        width: 300px;
-        height: 200px;
-        top: 55%;
-        left: 60%;
-        background-image: url('assets/rec-example.png');
-    }
+.max-1 {
+  .kilas-balik-image:nth-child(1) {
+    width: 280px;
+    height: 200px;
+    top: 5%;
+    left: 7%;
+    background-image: url("assets/rec-example.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(2) {
+    width: 220px;
+    height: 235px;
+    top: 15%;
+    left: 25%;
+    background-image: url("assets/rec-example.png");
+    /* background-image: url(IMG_7490.JPG); */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .kilas-balik-image:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(4) {
+    width: 280px;
+    height: 200px;
+    top: 2%;
+    left: 63%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(5) {
+    width: 280px;
+    height: 200px;
+    top: 30%;
+    left: 5%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(6) {
+    width: 200px;
+    height: 200px;
+    top: 45%;
+    left: 30%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(7) {
+    width: 280px;
+    height: 200px;
+    top: 40%;
+    left: 45%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(8) {
+    width: 280px;
+    height: 280px;
+    top: 25%;
+    left: 65%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(9) {
+    width: 280px;
+    height: 280px;
+    top: 50%;
+    left: 2%;
+    background-image: url("assets/rec-example.png");
+  }
+
+  .kilas-balik-image:nth-child(10) {
+    width: 300px;
+    height: 200px;
+    top: 55%;
+    left: 60%;
+    background-image: url("assets/rec-example.png");
+  }
+}
+
+/* SECTION FOOTER */
+.section.footer {
+  padding: 10px 40px;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.social-media:hover img {
+  color: blue;
+}
+
+.social-media img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 30px;
+}
+
+.social-media a {
+  font-family: var(--JakartaSans);
 }
