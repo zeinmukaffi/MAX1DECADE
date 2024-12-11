@@ -22,7 +22,7 @@
   position: relative;
   max-width: 100%;
   background-size: contain;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #background_MAX {
@@ -40,8 +40,10 @@
 
 #navbar {
   position: absolute;
+  width: 70%;
   top: 0;
-  left: auto;
+  left: 0;
+  right: 0;
   z-index: 99;
   background: linear-gradient(
     90deg,
@@ -99,6 +101,9 @@
   margin-top: 20px;
 }
 
+
+
+/* SECTION 5 STAGES OF GRIEVE START */
 .galery-scroll {
     display: flex;
     width: 100%;
@@ -120,7 +125,15 @@
     gap: var(--gap);
 }
 
-/* Emotion start */
+
+.galery-scroll-cont {
+    padding: 2rem 0;
+}
+
+.emotion {
+    padding: 0 3rem;
+}
+
 .img-left img, .img-right img {
     width: 230px;
 }
@@ -148,7 +161,7 @@
 
 .galery-scroll-text .text-right{
     padding-left: 7rem;
-    padding-right: 4rem;
+    padding-right: 1rem;
     padding-top: 2rem;
 }
 .galery-scroll-text .text-left{
@@ -176,9 +189,28 @@
     font-size: 1.2rem;
 }
 
-/* Emotion End */
+/* SECTION 5 STAGES OF GRIEVE END */
 
-/* Galery Scroll End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Animation */
 @keyframes scroll {
@@ -187,10 +219,10 @@
     }
 }
 
-/* Responsive */
-@media screen and (max-width:1280px) {
-    .container {
-       min-width: 100%;
-       background-size: contain;
+    /* Responsive */
+    @media screen and (max-width:1280px) {
+        .container {
+        min-width: 100%;
+        background-size: contain;
+        }
     }
-}
