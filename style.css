@@ -75,7 +75,7 @@
 
 .section .label {
   background-color: rgba(255, 255, 255, 0.4);
-  padding: 10px 40px;
+  padding: 5px 30px;
   border: solid 4px rgba(255, 255, 255, 0.47);
   border-radius: 42px;
   filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.03));
@@ -83,10 +83,8 @@
   font-family: var(--JakartaSans);
   font-weight: 600;
   color: white;
-}
-
-.section .label.medium {
   font-size: 24px;
+  margin-top: 20px;
 }
 
 .section .title {
@@ -94,10 +92,5 @@
   font-size: 95px;
   line-height: 90%;
   color: white;
-  margin-top: 20px;
-}
-
-.section .label.small {
-  font-size: 24px;
   margin-top: 20px;
 }
