@@ -5,6 +5,7 @@
   --green: rgb(148, 245, 119);
   --blue: #63d9ff;
   --purple: rgb(199, 90, 246);
+  --white_bg: rgba(255, 255, 255, 0.447);
   --white: #ffff;
   --black: #000000;
 
@@ -31,6 +32,14 @@ body {
   align-items: center;
   /* overflow: hidden; */
 }
+
+/* Responsive */
+@media screen and (max-width: 1280px) {
+    .container {
+      min-width: 100%;
+      background-size: contain;
+    }
+  }
 
 #background_MAX {
   position: absolute;
@@ -317,12 +326,12 @@ body {
 
 /* MEDPART & SPONSOR START */
 .sponsor-scroll {
-    background: rgba(255, 255, 255, 0.447);
+    background: var(--white_bg);
     display: flex;
     gap: 6rem;
     width: 100% ;
     user-select: none;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
 }
 
 .sponsor-scroll img {
@@ -337,6 +346,49 @@ body {
     align-items: center;
     justify-content: space-between;
     animation: scrollX 5s linear infinite;
+}
+
+
+.sponsor {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.bg-sponsor {
+    background-color: var(--white_bg);
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    height: 18rem;
+    flex-wrap: wrap;
+}
+
+.sponsored {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: -1rem;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--white_bg);
+    padding: 0.5rem 1rem;
+    
+}
+
+.bg-sponsor img {
+    width: 100px;
+    height: 80px;
 }
 
 
@@ -359,13 +411,7 @@ body {
   }
 }
 
-/* Responsive */
-@media screen and (max-width: 1280px) {
-  .container {
-    min-width: 100%;
-    background-size: contain;
-  }
-}
+
 
 /* KILAS BALIK MAX */
 
