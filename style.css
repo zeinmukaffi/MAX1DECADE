@@ -81,7 +81,7 @@
   filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.03));
   backdrop-filter: blur(12.6px);
   font-family: var(--JakartaSans);
-  font-weight: 700;
+  font-weight: 600;
   color: white;
 }
 
@@ -89,12 +89,11 @@
   font-size: 24px;
 }
 
-.section p {
+.section .title {
   font-family: var(--Kadwa);
-  font-size: 80px;
+  font-size: 95px;
   line-height: 90%;
   color: white;
-  font-weight: bold;
   margin-top: 20px;
 }
 
@@ -102,5 +101,3 @@
   font-size: 24px;
   margin-top: 20px;
 }
-
-/* Note berikutnya bikin SECTION INTRODUCTION */
