@@ -22,8 +22,6 @@
   position: relative;
   max-width: 100%;
   background-size: contain;
-  display: flex;
-  justify-content: center;
   overflow-x: hidden;
 }
 
@@ -33,6 +31,11 @@
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
 }
 
 #navbar {
@@ -74,7 +77,7 @@
   rotate: -4deg;
 }
 
-.section .label {
+.label {
   background-color: rgba(255, 255, 255, 0.4);
   padding: 5px 30px;
   border: solid 4px rgba(255, 255, 255, 0.47);
