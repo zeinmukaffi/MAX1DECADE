@@ -305,10 +305,48 @@ body {
 
 /* SECTION 5 STAGES OF GRIEVE END */
 
+
+/* MEDPART & SPONSOR START */
+.sponsor-scroll {
+    background: rgba(255, 255, 255, 0.447);
+    display: flex;
+    gap: 6rem;
+    width: 100% ;
+    user-select: none;
+    margin-bottom: 10rem;
+}
+
+.sponsor-scroll img {
+    width: 80px;
+}
+
+.sponsor-scroll ul {
+    display: flex;
+    flex-shrink: 0;
+    min-width: 100%;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    animation: scrollX 5s linear infinite;
+}
+
+
+
+
+/* MEDPART & SPONSOR END */
+
+
+
 /* Animation */
 @keyframes scroll {
   to {
     transform: translateY(calc(-100% - 80px));
+  }
+}
+
+@keyframes scrollX {
+  to {
+    transform: translateX(calc(-100% - 6rem));
   }
 }
 
