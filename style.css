@@ -40,16 +40,16 @@ body {
   z-index: -1;
 }
 
-.nav-container{
-    display: flex;
-    justify-content: center;
+.nav-container {
+  display: flex;
+  justify-content: center;
 }
 
 #navbar {
   position: absolute;
   width: 70%;
   top: 0;
-  left: 0;
+  left: 15%;
   right: 0;
   z-index: 99;
   background: linear-gradient(
@@ -109,6 +109,11 @@ body {
 }
 
 /* SECTION MULTIMEDIAN-WEBSITES */
+.section.multimedian-websites {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
 .label.big {
   font-size: 60px;
   color: var(--black);
@@ -216,128 +221,104 @@ body {
   color: white;
 }
 
-
-
 /* SECTION 5 STAGES OF GRIEVE START */
 .galery-scroll {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: 1rem;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.35);
-    height: 600px;
-   
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.35);
+  height: 600px;
 }
 
 .galery-scroll-top {
-    display: flex;
-    justify-content: center;
-    gap: 28px;
-    overflow: hidden;
-    user-select: none;
-    --gap: 30px;
-    gap: var(--gap);
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  overflow: hidden;
+  user-select: none;
+  --gap: 30px;
+  gap: var(--gap);
 }
 
-
 .galery-scroll-cont {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .emotion {
-    padding: 0 3rem;
+  padding: 0 3rem;
 }
 
-.img-left img, .img-right img {
-    width: 230px;
+.img-left img,
+.img-right img {
+  width: 230px;
 }
 
-.img-left, .img-right {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-    gap: var(--gap);
+.img-left,
+.img-right {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  gap: var(--gap);
 }
 
 .img-left {
-    transform: translateY(-200px);
+  transform: translateY(-200px);
 }
 
 .img-cont:hover {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
-
 
 .img-cont {
-    transform: translateY(-200px);
-    animation: scroll 5s linear infinite;
+  transform: translateY(-200px);
+  animation: scroll 5s linear infinite;
 }
 
-.galery-scroll-text .text-right{
-    padding-left: 7rem;
-    padding-right: 1rem;
-    padding-top: 2rem;
+.galery-scroll-text .text-right {
+  padding-left: 7rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
 }
-.galery-scroll-text .text-left{
-    padding-right: 8rem;
-    padding-left: 1rem;
-    padding-top: 2rem;
+.galery-scroll-text .text-left {
+  padding-right: 8rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
 }
 
 .galery-scroll-text h2 {
-    background: rgba(255, 255, 255, 0.35);
-    padding: 0.7rem 1.5rem;
-    border-radius: 1rem;
-    display: inline-block;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.119);
-    text-transform: uppercase;
-    font-size: 2.6rem;
+  background: rgba(255, 255, 255, 0.35);
+  padding: 0.7rem 1.5rem;
+  border-radius: 1rem;
+  display: inline-block;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.119);
+  text-transform: uppercase;
+  font-size: 2.6rem;
 }
 
 .galery-scroll-text p {
-    background: rgba(255, 255, 255, 0.35);
-    padding: 0.7rem;
-    margin-top: 1rem;
-    border-radius: 1rem;
-    font-weight: normal;
-    font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.35);
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-weight: normal;
+  font-size: 1.2rem;
 }
 
 /* SECTION 5 STAGES OF GRIEVE END */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Animation */
 @keyframes scroll {
-    to {
-        transform: translateY(calc(-100% - 80px));
-    }
+  to {
+    transform: translateY(calc(-100% - 80px));
+  }
 }
 
-    /* Responsive */
-    @media screen and (max-width:1280px) {
-        .container {
-        min-width: 100%;
-        background-size: contain;
-        }
-    }
+/* Responsive */
+@media screen and (max-width: 1280px) {
+  .container {
+    min-width: 100%;
+    background-size: contain;
+  }
+}
