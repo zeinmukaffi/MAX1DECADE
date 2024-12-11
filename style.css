@@ -1,24 +1,49 @@
-*{
-    /* COLOR */
-    --red: #FF4B52;
-    --orange: #F4BA24;
-    --green: #94F577;
-    --blue: #63D9FF;
-    --purple: #C75AF6;
-    --white: #fffff;
-    --black: #000000;
+* {
+  /* COLOR */
+  --red: #ff4b52;
+  --orange: #f4ba24;
+  --green: #94f577;
+  --blue: #63d9ff;
+  --purple: #c75af6;
+  --white: #fffff;
+  --black: #000000;
 
-    /* FONTS */
-    --Kadwa: "Kadwa", serif;
-    --JakartaSans: "Plus Jakarta Sans", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  /* FONTS */
+  --Kadwa: "Kadwa", serif;
+  --JakartaSans: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    min-height: 18735px;
-    min-width: 1920px;
-    background-image: url(assets/bg-main.svg);
-    background-size: contain;
+  /* min-height: 18735px; */
+  /* min-width: 1920px; */
+  position: relative;
+  width: 100vw;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+}
+
+#background_MAX {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#navbar {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(211, 233, 220, 1) 0%,
+    rgba(233, 220, 233, 1) 100%
+  );
+  padding: 20px 50px;
+  border-radius: 0px 0px 50px 50px;
+  border: solid rgba(255, 255, 255, 0.5) 4px;
+  border-top: 0px;
+  filter: drop-shadow(0 5 5 rgba(0, 0, 0, 0.1));
 }
