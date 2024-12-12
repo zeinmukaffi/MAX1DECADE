@@ -104,9 +104,9 @@ body {
   filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.03));
   backdrop-filter: blur(12.6px);
   font-family: var(--JakartaSans);
-  font-weight: 600;
+  font-weight: 700;
   color: white;
-  font-size: 24px;
+  font-size: 32px;
   margin-top: 20px;
 }
 
@@ -114,6 +114,7 @@ body {
   font-family: var(--Kadwa);
   font-size: 95px;
   line-height: 90%;
+  line-break:anywhere;
   color: white;
   margin-top: 20px;
 }
@@ -352,6 +353,7 @@ body {
 .sponsor {
   display: flex;
   width: 100%;
+  gap: 60px;
   justify-content: center;
 }
 
@@ -360,7 +362,7 @@ body {
   padding: 1rem;
   border-radius: 20px;
   display: flex;
-  width: 60%;
+  width: 40%;
   justify-content: space-around;
   align-items: center;
   height: 18rem;
@@ -377,16 +379,20 @@ body {
   align-items: center;
   margin: 0 auto;
   border-radius: 20px;
-  margin-top: -1rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
   justify-content: center;
   text-align: center;
   background-color: var(--white_bg);
   padding: 0.5rem 1rem;
 }
 
+.sponsored2 {
+  width: 250px;
+  margin-bottom: 3rem;
+}
+
 .bg-sponsor img {
-  width: 100px;
+  width: 200px;
   height: auto;
 }
 
