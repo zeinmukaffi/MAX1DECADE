@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuliner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+<!-- =========== container ========== -->
+    <div class="container">
+        <!-- navbar -->
+        <div class="navbar">
+            <ul>
+                <li><a href="#banner"><img src="img/menu.svg" alt=""></a></li>
+                <li><a href="#about"><img src="img/info.svg" alt=""></a></li>
+                <li><a href="#menu"><img src="img/at.svg" alt=""></a></li>
+                <li><a href="#locate"><img src="img/map.svg" alt=""></a></li>
+            </ul>
+        </div>
+        <!-- banner -->
+        <section id="banner" class="banner">
+            <div class="banner-title">
+                <h1>Peekaboo is Ice Cream #withBENEFITS</h1>
+            </div>
+            <div class="banner-frame">
+                <img src="img/peekaboo_cotton.png" alt="">
+                <img src="img/spark_star.png" alt="">
+                <img src="img/yay.png" alt="">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about" class="about-sect">
+            <div class="about">
+                <!-- about 1 -->
+                <input type="radio" id="about-1" name="about" checked>
+                <label for="about-1">Flavour Ex.</label>
+                <div class="about-content">
+                    <img src="img/peekaboo_mango.png" alt="">
+                    <div class="about-text">
+                        <h1>Mango sorbet with hidden squash</h1>
+                        <p data-aos="fade-right">We pulled off a real magic trick with this mango sorbet, mixing in a cup full of pumpkin squash. Technically a fruit, it’s high in fiber and beta carotene, adding a health kick to our creamy (and non-dairy) recipe.</p>
+                    </div>
+                </div>
+                <!-- about 2 -->
+                <input type="radio" id="about-2" name="about">
+                <label for="about-2">Detail</label>
+                <div class="about-content">
+                    <img src="img/veggies.gif">
+                    <div class="about-text">
+                        <h1>Less Judgement.</h1>
+                        <p>Kids won’t eat their broccoli? Same same. We’re on a mission to help families develop a healthier relationship with food (and to stop beating themselves up for the #fails!). Serving ice cream with nutrition helps take some of that stress away.</p>
+                        <a href="#menu"><img src="img/button.png" alt=""></a>
+                    </div>
+                </div>
+                <label class="incorrect">Inside The Pint</label>
+                <label class="incorrect">etc.</label>
+            </div>
+        </section>
+    </div>
+    <!-- sticky -->
+    <section class="sticky-area" id="menu">
+        <div class="sticky">
+            <img src="img/arrow.png" alt="">
+            <h1>Why @peekaboo?</h1>
+            <p>At Peekaboo Organics, we're all about real, clean ingredients. Like the dairy that comes from happy cows and all of our veggies that are organically grown.</p>
+            <a href="#about"><img src="img/button.png" alt=""></a>
+        </div>
+        <div class="sticky-content">
+            <div>
+                <img data-aos="fade-up" src="img/peekaboo_unicorn.png" alt="">
+            </div>
+            <div>
+                <img data-aos="fade-up" src="img/peekaboo_choco.png" alt="">
+            </div>
+            <div>
+                <img data-aos="fade-up" src="img/peekaboo_cookie.png" alt="">
+            </div>
+            <div>
+                <img data-aos="fade-up" src="img/peekaboo_mint.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- bottom -->
+    <section class="bottom" id="locate">
+        <div class="locate">
+            <h1>WHERE TO FIND US</h1>
+            <img data-aos="fade-up" src="img/maps.png" alt="">
+            <p>At Peekaboo, we’re all about the precarious balance of parenting: We know how hard it is to get your kids to eat their veggies—slash impossible. We also know there’s no denying their ice cream-induced</p>
+        </div>
+        <br>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c0d0fb" fill-opacity="1" d="M0,32L48,48C96,64,192,96,288,128C384,160,480,192,576,186.7C672,181,768,139,864,117.3C960,96,1056,96,1152,112C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    <section class="footer">
+        <div class="footer-title">
+            <h1>Eat your veggies @eatpeekaboo</h1>
+            <p>Our belief that Peekaboo can help make the world a better place goes beyond putting veggies in our recipes: as a female-and-mom-founded company, we support women in the workplace. We also believe
+            that all little ones deserve to have full bellies, so we proudly partner with Team No Kid Hungry.</p>
+        </div>
+        <div class="footer-icon">
+            <a href=""><img src="img/instagram.svg" alt=""></a>
+            <a href=""><img src="img/facebook.svg" alt=""></a>
+            <a href=""><img src="img/twitter.svg" alt=""></a>
+        </div>
+        <h3>Copyright © 2022 Eat Peekaboo.</h3>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
