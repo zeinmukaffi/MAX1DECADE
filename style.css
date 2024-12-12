@@ -1288,7 +1288,6 @@ body {
   }
 }
 
-/* SECTION FOOTER */
 .section.footer {
   padding: 10px 40px;
   width: fit-content;
@@ -1317,4 +1316,64 @@ body {
 
 .social-media a {
   font-family: var(--JakartaSans);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .introduction-kiri,
+  .introduction-kanan {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.introduction-kiri,
+.introduction-kanan {
+  width: 48%;
+  padding: 30px;
+}
+
+.judul-warna {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.card-box {
+  background-color: white;
+  padding: 60px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+h2.card-title {
+  border: 1px solid #000;
+  background-color: rgba(255, 255, 255, 0.468);
+  margin: 0 auto;
+  width: auto;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 1.125rem;
+  margin-bottom: 20px;
 }
