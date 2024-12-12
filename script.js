@@ -45,6 +45,7 @@ prevButton.addEventListener('click', () => {
 
 // Inisialisasi posisi awal
 updateCarousel();
+<<<<<<< HEAD
 
 const modal = document.getElementById('videoModal');
     const modalVideo = document.getElementById('modalVideo');
@@ -59,3 +60,5 @@ const modal = document.getElementById('videoModal');
       modalVideo.pause();
       modalVideo.src = '';
     }
+=======
+>>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
