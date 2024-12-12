@@ -329,23 +329,24 @@ body {
   background: var(--white_bg);
   display: flex;
   gap: 6rem;
-  width: 100%;
+  width: 110%;
   user-select: none;
   margin-bottom: 3rem;
+  padding: 1REM 0;
 }
 
 .sponsor-scroll img {
-  width: 80px;
+  width: 60px;
 }
 
 .sponsor-scroll ul {
   display: flex;
   flex-shrink: 0;
   min-width: 100%;
-  gap: 2rem;
+  gap: 6rem;
   align-items: center;
   justify-content: space-between;
-  animation: scrollX 5s linear infinite;
+  animation: scrollX 10s linear infinite;
 }
 
 .sponsor {
@@ -386,7 +387,7 @@ body {
 
 .bg-sponsor img {
   width: 100px;
-  height: 80px;
+  height: auto;
 }
 
 /* MEDPART & SPONSOR END */
@@ -409,7 +410,7 @@ body {
 .section-kilas {
   display: flex;
   gap: 2rem;
-  margin-top: 150px;
+  margin-top: 20px;
   margin-bottom: 100px;
 }
 
