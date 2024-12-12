@@ -376,6 +376,10 @@ body {
     margin-bottom: 100px;
 }
 
+.section-kilas.label.medium{
+    color: var(--black);
+}
+
 .maskot-text p{
     font-weight: bolder;
     font-size: 200px;
