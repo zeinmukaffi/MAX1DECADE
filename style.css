@@ -266,6 +266,8 @@ body {
 .img-left img,
 .img-right img {
   width: 230px;
+  height: 420px;
+  object-fit: cover;
 }
 
 .img-left,
@@ -274,10 +276,11 @@ body {
   flex-direction: column;
   flex-shrink: 0;
   gap: var(--gap);
+  padding-bottom: 30px;
 }
 
 .img-left {
-  transform: translateY(-200px);
+  transform: translateY(200px);
 }
 
 .img-cont:hover {
@@ -397,7 +400,7 @@ body {
 /* Animation */
 @keyframes scroll {
   to {
-    transform: translateY(calc(-100% - 80px));
+    transform: translateY(calc(-200% - 860px));
   }
 }
 
