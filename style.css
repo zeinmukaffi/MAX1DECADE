@@ -53,10 +53,7 @@ body {
 .nav-container {
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
   font-family: var(--JakartaSans);
-=======
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
 }
 
 #navbar {
@@ -126,14 +123,9 @@ body {
 /* SECTION MULTIMEDIAN-WEBSITES */
 .section.multimedian-websites {
   height: fit-content;
-<<<<<<< HEAD
   margin-top: 100px;
   margin-bottom: 100px;
   font-family: var(--JakartaSans);
-=======
-  margin-top: 250px;
-  margin-bottom: 100px;
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
 }
 
 .multimedian-websites p {
@@ -150,7 +142,6 @@ body {
   font-family: var(--JakartaSans);
 }
 
-<<<<<<< HEAD
 .max-gallery{
   margin-top: 10rem;
 }
@@ -160,8 +151,6 @@ body {
   font-family: var(--JakartaSans);
 }
 
-=======
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
 .container-websites {
   margin-top: 50px;
   width: 100%;
@@ -288,10 +277,7 @@ body {
 
 .emotion {
   padding: 0 3rem;
-<<<<<<< HEAD
   font-family: var(--JakartaSans);
-=======
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
 }
 
 .img-left img,
@@ -414,19 +400,13 @@ body {
   text-align: center;
   background-color: var(--white_bg);
   padding: 0.5rem 1rem;
-<<<<<<< HEAD
   font-family: var(--JakartaSans);
-=======
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
 }
 
 .sponsored2 {
   width: 250px;
   margin-bottom: 3rem;
-<<<<<<< HEAD
   font-family: var(--JakartaSans);
-=======
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
 }
 
 .bg-sponsor img {
@@ -489,13 +469,10 @@ body {
   width: 100%;
 }
 
-<<<<<<< HEAD
 .motion-max{
   margin-top: -10rem;
 }
 
-=======
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
 .kilas-balik {
   display: flex;
   width: 100%;
@@ -538,11 +515,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-<<<<<<< HEAD
     background-image: url('assets/MAX8/1701183495434.jpg');
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -552,12 +525,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-<<<<<<< HEAD
     background-image: url('assets/MAX8/1701344730653.jpg');
-=======
-    background-image: url("assets/rec-example.png");
-    /* background-image: url(IMG_7490.JPG); */
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -567,13 +535,9 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX8/IMG_6826.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -581,13 +545,9 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-<<<<<<< HEAD
     background-image: url('assets/MAX8/IMG_6827.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -595,13 +555,9 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-<<<<<<< HEAD
     background-image: url('assets/MAX8/IMG_6994.jpg');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -609,13 +565,9 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX8/IMG_6996.jpg');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -623,13 +575,9 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX8/IMG_8596.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -637,13 +585,9 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-<<<<<<< HEAD
     background-image: url('assets/MAX8/IMG_8615.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -651,13 +595,9 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-<<<<<<< HEAD
     background-image: url('assets/MAX8/IMG_8826.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -665,13 +605,9 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX8/IMG_8869.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(11) {
@@ -679,13 +615,9 @@ body {
     height: 400px;
     top: 75%;
     left: 20%;
-<<<<<<< HEAD
     background-image: url('assets/MAX8/IMG_9001.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(12) {
@@ -693,13 +625,9 @@ body {
     height: 300px;
     top: 70%;
     left: 60%;
-<<<<<<< HEAD
     background-image: url('assets/MAX8/IMG_7490.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 }
 
@@ -709,11 +637,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-<<<<<<< HEAD
     background-image: url('assets/MAX7/DSC01877.JPG');
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -723,12 +647,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-<<<<<<< HEAD
     background-image: url('assets/MAX7/DSC01942.JPG');
-=======
-    background-image: url("assets/rec-example.png");
-    /* background-image: url(IMG_7490.JPG); */
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -738,13 +657,9 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX7/IMG_8085.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -752,13 +667,9 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-<<<<<<< HEAD
     background-image: url('assets/MAX7/IMG_8614.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -766,13 +677,9 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-<<<<<<< HEAD
     background-image: url('assets/MAX7/IMG_8674.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -780,13 +687,9 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX7/IMG_8819.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -794,13 +697,9 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX7/IMG_9033.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -808,13 +707,9 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-<<<<<<< HEAD
     background-image: url('assets/MAX7/IMG_9146.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -822,13 +717,9 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-<<<<<<< HEAD
     background-image: url('assets/MAX7/IMG_9276.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -836,33 +727,11 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX7/IMG_9287.JPG');
     background-position: center;
     background-size: cover;
   }
 } 
-=======
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(11) {
-    width: 300px;
-    height: 400px;
-    top: 75%;
-    left: 20%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(12) {
-    width: 300px;
-    height: 300px;
-    top: 70%;
-    left: 60%;
-    background-image: url("assets/rec-example.png");
-  }
-}
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
 
 .max-6 {
   .kilas-balik-image:nth-child(1) {
@@ -870,11 +739,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-<<<<<<< HEAD
     background-image: url('assets/MAX6/DSC02838.JPG');
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -884,12 +749,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-<<<<<<< HEAD
     background-image: url('assets/MAX6/DSC_2351.JPG');
-=======
-    background-image: url("assets/rec-example.png");
-    /* background-image: url(IMG_7490.JPG); */
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -899,13 +759,9 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX6/DSC_2365.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -913,13 +769,9 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-<<<<<<< HEAD
     background-image: url('assets/MAX6/DSC_2406.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -927,13 +779,9 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-<<<<<<< HEAD
     background-image: url('assets/MAX6/DSC_2497.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -941,13 +789,9 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX6/DSC_2569.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -955,13 +799,9 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX6/IMG_1832.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -969,13 +809,9 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-<<<<<<< HEAD
     background-image: url('assets/MAX6/IMG_2004.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -983,13 +819,9 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-<<<<<<< HEAD
     background-image: url('assets/MAX6/IMG_2096.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -997,29 +829,9 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX6/IMG_2388.JPG');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(11) {
-    width: 300px;
-    height: 400px;
-    top: 75%;
-    left: 20%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(12) {
-    width: 300px;
-    height: 300px;
-    top: 70%;
-    left: 60%;
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 }
 
@@ -1029,11 +841,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-<<<<<<< HEAD
     background-image: url('assets/MAX5/1.jpg');
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -1043,12 +851,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-<<<<<<< HEAD
     background-image: url('assets/MAX5/2.jpg');
-=======
-    background-image: url("assets/rec-example.png");
-    /* background-image: url(IMG_7490.JPG); */
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -1058,13 +861,9 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX5/3.jpg');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -1072,13 +871,9 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-<<<<<<< HEAD
     background-image: url('assets/MAX5/4.jpg');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -1086,13 +881,9 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-<<<<<<< HEAD
     background-image: url('assets/MAX5/5.jpg');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -1100,13 +891,9 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX5/6.jpg');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -1114,13 +901,9 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX5/7.jpg');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -1128,13 +911,9 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-<<<<<<< HEAD
     background-image: url('assets/MAX5/8.jpg');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -1142,13 +921,9 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-<<<<<<< HEAD
     background-image: url('assets/MAX5/hest.jpg');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -1156,29 +931,9 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX5/Screenshot\ 2024-12-12\ 112649.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(11) {
-    width: 300px;
-    height: 400px;
-    top: 75%;
-    left: 20%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(12) {
-    width: 300px;
-    height: 300px;
-    top: 70%;
-    left: 60%;
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 }
 
@@ -1188,11 +943,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-<<<<<<< HEAD
     background-image: url('assets/MAX4/Screenshot\ 2024-12-12\ 110617.png');
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -1202,12 +953,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-<<<<<<< HEAD
     background-image: url('assets/MAX4/Screenshot\ 2024-12-12\ 110625.png');
-=======
-    background-image: url("assets/rec-example.png");
-    /* background-image: url(IMG_7490.JPG); */
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -1217,13 +963,9 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX4/Screenshot\ 2024-12-12\ 110632.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -1231,13 +973,9 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-<<<<<<< HEAD
     background-image: url('assets/MAX4/Screenshot\ 2024-12-12\ 110706.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -1245,13 +983,9 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-<<<<<<< HEAD
     background-image: url('assets/MAX4/Screenshot\ 2024-12-12\ 110719.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -1259,13 +993,9 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX4/Screenshot\ 2024-12-12\ 111347.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -1273,13 +1003,9 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX4/Screenshot\ 2024-12-12\ 111418.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -1287,13 +1013,9 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-<<<<<<< HEAD
     background-image: url('assets/MAX4/Screenshot\ 2024-12-12\ 111427.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -1301,13 +1023,9 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-<<<<<<< HEAD
     background-image: url('assets/MAX4/Screenshot\ 2024-12-12\ 111441.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -1315,29 +1033,9 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX4/Screenshot\ 2024-12-12\ 111601.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(11) {
-    width: 300px;
-    height: 400px;
-    top: 75%;
-    left: 20%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(12) {
-    width: 300px;
-    height: 300px;
-    top: 70%;
-    left: 60%;
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 }
 
@@ -1347,11 +1045,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-<<<<<<< HEAD
     background-image: url('assets/MAX3/Screenshot\ 2024-12-12\ 104227.png');
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -1361,12 +1055,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-<<<<<<< HEAD
     background-image: url('assets/MAX3/Screenshot\ 2024-12-12\ 104237.png');
-=======
-    background-image: url("assets/rec-example.png");
-    /* background-image: url(IMG_7490.JPG); */
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -1376,13 +1065,9 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX3/Screenshot\ 2024-12-12\ 104243.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -1390,13 +1075,9 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-<<<<<<< HEAD
     background-image: url('assets/MAX3/Screenshot\ 2024-12-12\ 104308.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -1404,13 +1085,9 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-<<<<<<< HEAD
     background-image: url('assets/MAX3/Screenshot\ 2024-12-12\ 110159.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -1418,13 +1095,9 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX3/Screenshot\ 2024-12-12\ 110209.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -1432,13 +1105,9 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX3/Screenshot\ 2024-12-12\ 110259.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -1446,13 +1115,9 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-<<<<<<< HEAD
     background-image: url('assets/MAX3/Screenshot\ 2024-12-12\ 110310.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -1460,37 +1125,9 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-<<<<<<< HEAD
     background-image: url('assets/MAX3/Screenshot\ 2024-12-12\ 110320.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(10) {
-    width: 300px;
-    height: 200px;
-    top: 65%;
-    left: 30%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(11) {
-    width: 300px;
-    height: 400px;
-    top: 75%;
-    left: 20%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(12) {
-    width: 300px;
-    height: 300px;
-    top: 70%;
-    left: 60%;
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 }
 
@@ -1500,11 +1137,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-<<<<<<< HEAD
     background-image: url('assets/MAX2/12.jpg');
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -1514,12 +1147,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-<<<<<<< HEAD
     background-image: url('assets/MAX2/13.jpg');
-=======
-    background-image: url("assets/rec-example.png");
-    /* background-image: url(IMG_7490.JPG); */
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
     background-position: center;
     background-size: cover;
   }
@@ -1529,13 +1157,9 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX2/5.jpg');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -1543,13 +1167,9 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-<<<<<<< HEAD
     background-image: url('assets/MAX2/6.jpg');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -1557,13 +1177,9 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-<<<<<<< HEAD
     background-image: url('assets/MAX2/7.jpg');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -1571,13 +1187,9 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX2/Screenshot\ 2024-12-12\ 104632.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -1585,13 +1197,9 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-<<<<<<< HEAD
     background-image: url('assets/MAX2/Screenshot\ 2024-12-12\ 104715.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -1599,13 +1207,9 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-<<<<<<< HEAD
     background-image: url('assets/MAX2/Screenshot\ 2024-12-12\ 104828.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -1613,13 +1217,9 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-<<<<<<< HEAD
     background-image: url('assets/MAX2/Screenshot\ 2024-12-12\ 104836.png');
     background-position: center;
     background-size: cover;
-=======
-    background-image: url("assets/rec-example.png");
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -1627,121 +1227,12 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-<<<<<<< HEAD
     background-image: url('assets/MAX2/Screenshot\ 2024-12-12\ 105011.png');
     background-position: center;
     background-size: cover;
   }
 }
 
-=======
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(11) {
-    width: 300px;
-    height: 400px;
-    top: 75%;
-    left: 20%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(12) {
-    width: 300px;
-    height: 300px;
-    top: 70%;
-    left: 60%;
-    background-image: url("assets/rec-example.png");
-  }
-}
-
-.max-1 {
-  .kilas-balik-image:nth-child(1) {
-    width: 280px;
-    height: 200px;
-    top: 5%;
-    left: 7%;
-    background-image: url("assets/rec-example.png");
-    background-position: center;
-    background-size: cover;
-  }
-
-  .kilas-balik-image:nth-child(2) {
-    width: 220px;
-    height: 235px;
-    top: 15%;
-    left: 25%;
-    background-image: url("assets/rec-example.png");
-    /* background-image: url(IMG_7490.JPG); */
-    background-position: center;
-    background-size: cover;
-  }
-
-  .kilas-balik-image:nth-child(3) {
-    width: 200px;
-    height: 200px;
-    top: 10%;
-    left: 45%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(4) {
-    width: 280px;
-    height: 200px;
-    top: 2%;
-    left: 63%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(5) {
-    width: 280px;
-    height: 200px;
-    top: 30%;
-    left: 5%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(6) {
-    width: 200px;
-    height: 200px;
-    top: 45%;
-    left: 30%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(7) {
-    width: 280px;
-    height: 200px;
-    top: 40%;
-    left: 45%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(8) {
-    width: 280px;
-    height: 280px;
-    top: 25%;
-    left: 65%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(9) {
-    width: 280px;
-    height: 280px;
-    top: 50%;
-    left: 2%;
-    background-image: url("assets/rec-example.png");
-  }
-
-  .kilas-balik-image:nth-child(10) {
-    width: 300px;
-    height: 200px;
-    top: 55%;
-    left: 60%;
-    background-image: url("assets/rec-example.png");
-  }
-}
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
 
 .section.footer {
   padding: 10px 40px;
@@ -1834,7 +1325,6 @@ h2.card-title {
 }
 
 /* VIDEO MAX SEBELUM2 NYA  */
-<<<<<<< HEAD
 
 .label.big.after-movie {
   font-size: 60px;
@@ -1844,11 +1334,6 @@ h2.card-title {
 
 .Max-video {
   margin: 0 0 300px 0;
-=======
-.Max-video {
-  background-color: antiquewhite;
-  margin: 0 0 100px 0;
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1857,10 +1342,6 @@ h2.card-title {
 }
 
 .carousel {
-<<<<<<< HEAD
-=======
-  background-color: red;
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   position: relative;
   width: 100%;
   height: 100%;
@@ -1868,17 +1349,10 @@ h2.card-title {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-<<<<<<< HEAD
   margin-top: 10rem;
 }
 
 .carousel-track {
-=======
-}
-
-.carousel-track {
-  background-color: blue;
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   display: flex;
   position: relative;
   top: 20%;
@@ -1887,19 +1361,12 @@ h2.card-title {
 
 .carousel-item {
   position: absolute;
-<<<<<<< HEAD
   width: 720px;
   height: 520px;
-=======
-  width: 427px;
-  height: 427px;
-  background: #fff;
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   border-radius: 10px;
   top: 50%;
   left: 20%;
   transform: translate(-5%, -50%);
-<<<<<<< HEAD
   /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
   transition: transform 0.5s ease, z-index 0.5s ease;
 }
@@ -1923,13 +1390,6 @@ h2.card-title {
 }
 
 /* .carousel-track {
-=======
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.5s ease, z-index 0.5s ease;
-}
-
-.carousel-track {
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   .carousel-item:nth-child(1) {
     transform: translate(5%, -50%) scale(1);
     background-color: hotpink;
@@ -1955,16 +1415,9 @@ h2.card-title {
     background-color: seagreen;
     z-index: 1;
   }
-<<<<<<< HEAD
 } */
 
 .carousel-buttons {
-=======
-}
-
-.carousel-buttons {
-  background-color: green;
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -1974,11 +1427,7 @@ h2.card-title {
 }
 
 .carousel-button {
-<<<<<<< HEAD
   background-color: var(--blue);
-=======
-  background-color: rgba(0, 0, 0, 0.7);
->>>>>>> 7f71b5e9df158e0a09345b237657a36bf706bc57
   color: #fff;
   border: none;
   padding: 10px 20px;
