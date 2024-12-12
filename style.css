@@ -83,7 +83,7 @@ body {
 /* SECTION HERO */
 .section {
   width: 100vw;
-  height: max(100vh, fit-content);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,15 +114,16 @@ body {
   font-family: var(--Kadwa);
   font-size: 95px;
   line-height: 90%;
-  line-break:anywhere;
+  line-break: anywhere;
   color: white;
   margin-top: 20px;
 }
 
 /* SECTION MULTIMEDIAN-WEBSITES */
 .section.multimedian-websites {
+  height: fit-content;
   margin-top: 250px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .multimedian-websites p {
