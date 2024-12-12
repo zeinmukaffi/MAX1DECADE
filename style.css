@@ -10,8 +10,8 @@
   --black: #000000;
 
   /* FONTS */
-  --Kadwa: 'Kadwa', serif;
-  --JakartaSans: 'Plus Jakarta Sans', sans-serif;
+  --Kadwa: "Kadwa", serif;
+  --JakartaSans: "Plus Jakarta Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -62,7 +62,11 @@ body {
   left: 15%;
   right: 0;
   z-index: 99;
-  background: linear-gradient(90deg, rgba(211, 233, 220, 1) 0%, rgba(233, 220, 233, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(211, 233, 220, 1) 0%,
+    rgba(233, 220, 233, 1) 100%
+  );
   padding: 20px 50px;
   border-radius: 0px 0px 50px 50px;
   border: solid rgba(255, 255, 255, 0.5) 4px;
@@ -79,7 +83,7 @@ body {
 /* SECTION HERO */
 .section {
   width: 100vw;
-  height: 100vh;
+  height: max(100vh, fit-content);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -160,7 +164,7 @@ body {
   --purple: rgb(199, 90, 246); */
 
 .website::before {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   bottom: 5%;
@@ -328,7 +332,7 @@ body {
   width: 110%;
   user-select: none;
   margin-bottom: 3rem;
-  padding: 1REM 0;
+  padding: 1rem 0;
 }
 
 .sponsor-scroll img {
@@ -483,7 +487,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     background-position: center;
     background-size: cover;
   }
@@ -493,7 +497,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     /* background-image: url(IMG_7490.JPG); */
     background-position: center;
     background-size: cover;
@@ -504,7 +508,7 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -512,7 +516,7 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -520,7 +524,7 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -528,7 +532,7 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -536,7 +540,7 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -544,7 +548,7 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -552,7 +556,7 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -560,7 +564,7 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(11) {
@@ -568,7 +572,7 @@ body {
     height: 400px;
     top: 75%;
     left: 20%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(12) {
@@ -576,7 +580,7 @@ body {
     height: 300px;
     top: 70%;
     left: 60%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 }
 
@@ -586,7 +590,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     background-position: center;
     background-size: cover;
   }
@@ -596,7 +600,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     /* background-image: url(IMG_7490.JPG); */
     background-position: center;
     background-size: cover;
@@ -607,7 +611,7 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -615,7 +619,7 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -623,7 +627,7 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -631,7 +635,7 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -639,7 +643,7 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -647,7 +651,7 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -655,7 +659,7 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -663,7 +667,7 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(11) {
@@ -671,7 +675,7 @@ body {
     height: 400px;
     top: 75%;
     left: 20%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(12) {
@@ -679,7 +683,7 @@ body {
     height: 300px;
     top: 70%;
     left: 60%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 }
 
@@ -689,7 +693,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     background-position: center;
     background-size: cover;
   }
@@ -699,7 +703,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     /* background-image: url(IMG_7490.JPG); */
     background-position: center;
     background-size: cover;
@@ -710,7 +714,7 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -718,7 +722,7 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -726,7 +730,7 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -734,7 +738,7 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -742,7 +746,7 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -750,7 +754,7 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -758,7 +762,7 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -766,7 +770,7 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(11) {
@@ -774,7 +778,7 @@ body {
     height: 400px;
     top: 75%;
     left: 20%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(12) {
@@ -782,7 +786,7 @@ body {
     height: 300px;
     top: 70%;
     left: 60%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 }
 
@@ -792,7 +796,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     background-position: center;
     background-size: cover;
   }
@@ -802,7 +806,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     /* background-image: url(IMG_7490.JPG); */
     background-position: center;
     background-size: cover;
@@ -813,7 +817,7 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -821,7 +825,7 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -829,7 +833,7 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -837,7 +841,7 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -845,7 +849,7 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -853,7 +857,7 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -861,7 +865,7 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -869,7 +873,7 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(11) {
@@ -877,7 +881,7 @@ body {
     height: 400px;
     top: 75%;
     left: 20%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(12) {
@@ -885,7 +889,7 @@ body {
     height: 300px;
     top: 70%;
     left: 60%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 }
 
@@ -895,7 +899,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     background-position: center;
     background-size: cover;
   }
@@ -905,7 +909,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     /* background-image: url(IMG_7490.JPG); */
     background-position: center;
     background-size: cover;
@@ -916,7 +920,7 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -924,7 +928,7 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -932,7 +936,7 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -940,7 +944,7 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -948,7 +952,7 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -956,7 +960,7 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -964,7 +968,7 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -972,7 +976,7 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(11) {
@@ -980,7 +984,7 @@ body {
     height: 400px;
     top: 75%;
     left: 20%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(12) {
@@ -988,7 +992,7 @@ body {
     height: 300px;
     top: 70%;
     left: 60%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 }
 
@@ -998,7 +1002,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     background-position: center;
     background-size: cover;
   }
@@ -1008,7 +1012,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     /* background-image: url(IMG_7490.JPG); */
     background-position: center;
     background-size: cover;
@@ -1019,7 +1023,7 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -1027,7 +1031,7 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -1035,7 +1039,7 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -1043,7 +1047,7 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -1051,7 +1055,7 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -1059,7 +1063,7 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -1067,7 +1071,7 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -1075,7 +1079,7 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(11) {
@@ -1083,7 +1087,7 @@ body {
     height: 400px;
     top: 75%;
     left: 20%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(12) {
@@ -1091,7 +1095,7 @@ body {
     height: 300px;
     top: 70%;
     left: 60%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 }
 
@@ -1101,7 +1105,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     background-position: center;
     background-size: cover;
   }
@@ -1111,7 +1115,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     /* background-image: url(IMG_7490.JPG); */
     background-position: center;
     background-size: cover;
@@ -1122,7 +1126,7 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -1130,7 +1134,7 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -1138,7 +1142,7 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -1146,7 +1150,7 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -1154,7 +1158,7 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -1162,7 +1166,7 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -1170,7 +1174,7 @@ body {
     height: 280px;
     top: 55%;
     left: 2%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -1178,7 +1182,7 @@ body {
     height: 200px;
     top: 65%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(11) {
@@ -1186,7 +1190,7 @@ body {
     height: 400px;
     top: 75%;
     left: 20%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(12) {
@@ -1194,7 +1198,7 @@ body {
     height: 300px;
     top: 70%;
     left: 60%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 }
 
@@ -1204,7 +1208,7 @@ body {
     height: 200px;
     top: 5%;
     left: 7%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     background-position: center;
     background-size: cover;
   }
@@ -1214,7 +1218,7 @@ body {
     height: 235px;
     top: 15%;
     left: 25%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
     /* background-image: url(IMG_7490.JPG); */
     background-position: center;
     background-size: cover;
@@ -1225,7 +1229,7 @@ body {
     height: 200px;
     top: 10%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(4) {
@@ -1233,7 +1237,7 @@ body {
     height: 200px;
     top: 2%;
     left: 63%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(5) {
@@ -1241,7 +1245,7 @@ body {
     height: 200px;
     top: 30%;
     left: 5%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(6) {
@@ -1249,7 +1253,7 @@ body {
     height: 200px;
     top: 45%;
     left: 30%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(7) {
@@ -1257,7 +1261,7 @@ body {
     height: 200px;
     top: 40%;
     left: 45%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(8) {
@@ -1265,7 +1269,7 @@ body {
     height: 280px;
     top: 25%;
     left: 65%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(9) {
@@ -1273,7 +1277,7 @@ body {
     height: 280px;
     top: 50%;
     left: 2%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 
   .kilas-balik-image:nth-child(10) {
@@ -1281,7 +1285,7 @@ body {
     height: 200px;
     top: 55%;
     left: 60%;
-    background-image: url('assets/rec-example.png');
+    background-image: url("assets/rec-example.png");
   }
 }
 

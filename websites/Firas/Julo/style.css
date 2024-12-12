@@ -1,0 +1,176 @@
+.-- {
+  font-family: "Passero One", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.body {
+  font-family: "Open Sans", sans-serif;
+}
+.navbar-brand {
+  font-family: "Outfit", sans-serif;
+}
+
+.navbar a {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 2rem;
+}
+
+.landing .landing-text {
+  padding: 10rem 6rem;
+}
+
+.landing {
+  background-image: url(img/back-view-1867001_1280.jpg);
+  background-position: left;
+  background-size: 110rem;
+  color: white;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.295);
+  font-family: "Open Sans", sans-serif;
+}
+
+.beli {
+  border-radius: 1.8rem;
+  padding: 0.8rem 1.8rem;
+  font-weight: 700;
+}
+
+.quote {
+  color: rgb(45, 0, 87);
+}
+
+.goku {
+  background-image: url(img/THE\ SAIYAN\ FROM\ EARTH\ _\ DRAGON\ BALL\ Z\ Merch\ for\ Otakus\ by\ Black\ Kitsune_\ T-SHIRT.jfif);
+  background-size: cover;
+  background-position: center;
+}
+
+.judul-goku {
+  font-family: "Passero One", sans-serif;
+  font-size: 4rem;
+  color: black;
+}
+
+.cekout-hitam {
+  background-color: black;
+  padding: 0.8rem 3rem;
+  border-radius: 0;
+}
+
+.mmx {
+  background-image: url(img/Men\'s\ Printed\ T-shirts\ _\ Mens\ Graphic\ T-shirts\ _\ boohoo\ UK.jfif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.mmx-text {
+  font-size: 3rem;
+}
+
+.baju img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.baju {
+  transition: 0.5s;
+  margin-bottom: 2rem;
+}
+.baju:hover {
+  transform: scale(1.1);
+}
+
+.judul-product {
+  font-size: 3.3rem;
+  font-family: "Passero One", sans-serif;
+  margin: 4rem 0;
+}
+
+.img-quote2 {
+  background-image: url(img/man-7628305_1280.jpg);
+  color: rgb(48, 33, 189);
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.295);
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 0;
+}
+
+.insta-img {
+  background-image: url(img/insta.jfif);
+  background-size: cover;
+  background-position: center;
+}
+
+#insta h2 {
+  font-size: 5rem;
+  font-family: "Passero One", sans-serif;
+  margin-top: 2rem;
+}
+
+#insta p {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+#favorite .col {
+  background-image: url(img/ArtStation\ -\ Hema.jfif);
+  padding: 5rem 0;
+  background-size: cover;
+  background-position: center;
+}
+
+#favorite h3 {
+  font-size: 4rem;
+  font-family: "Passero One", sans-serif;
+  color: white;
+}
+
+.cekout-putih {
+  background-color: rgb(255, 255, 255);
+  padding: 0.8rem 3rem;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+#favorite p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 2rem 6rem;
+}
+
+footer .nav-link {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+footer h6 {
+  font-size: 1.5rem;
+}
+
+footer h1 {
+  font-size: 3rem;
+  font-family: "Outfit", sans-serif;
+  padding-left: 3rem;
+}
+
+footer i {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+footer i:hover {
+  color: red;
+}
