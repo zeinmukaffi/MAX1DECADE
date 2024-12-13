@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   /* COLOR */
   --red: rgb(255, 75, 82);
